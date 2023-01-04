@@ -9,7 +9,8 @@ class Student {
     }
   
     isEligible() {
-      return this.marks > 40;
+      if(this.marks > 40) return "Eligible";
+      else return "Not Eligible";
     }
   }
   
